@@ -1,0 +1,25 @@
+:root{
+    --text-color: green;
+    --title-width: if(10 > 5) this.width = 10;
+}
+
+h1{
+    color: var(--text-color);
+    width: var(--title-width);
+    --gap: 20;
+    margin-top: calc(var(--gap) * 1px);
+}
+
+/* Vendor prefix */
+* {
+    --border-radius: initial;
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
+}
+h1{
+    --border-radius: 5px;
+    border:1px solid red;
+}
