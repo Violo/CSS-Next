@@ -1,10 +1,9 @@
 # CSS-Next
-Test with this css post processor (work in progress)
+Test with CSS-Next post processor and use of CSS Custom Properties (work in progress)
 
 ### Setup an usage
-    Add this entry in your local /etc/hosts
-
-    10.10.10.10     local.newslist.it
+    nvm use
+    grunt postcss
 
 ## Authors
 
