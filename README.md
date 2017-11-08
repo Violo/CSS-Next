@@ -2,6 +2,7 @@
 Test with CSS-Next post processor and use of CSS Custom Properties (work in progress)
 
 ### Setup an usage
+    (sass required)
     nvm use
     grunt postcss
 
