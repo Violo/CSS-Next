@@ -1,6 +1,11 @@
 # CSS-Next
 Test with this css post processor (work in progress)
 
+### Setup an usage
+    Add this entry in your local /etc/hosts
+
+    10.10.10.10     local.newslist.it
+
 ## Authors
 
 **Alessandro Violini (Violo)**
